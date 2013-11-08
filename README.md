@@ -41,7 +41,7 @@ mysupervaguecontrollername
 
 Apex comments should adhere to the JavaDoc style so that Allergan can produce documentation from code. Please note that **all methods** are commented, as is the class header. 
 
-Inline comments are strongly encouraged as well. The more frequent and **meaningful**, the better.
+Inline comments are strongly encouraged as well. The more **frequent** and **meaningful**, the better.
 
 ```objc
 public without sharing class AGN_GlobalUtils {
@@ -89,7 +89,7 @@ Please make clear assertions. Simply covering the code is not sufficient.
 
 ## 5. Unit Tests: Data
 
-Unit tests may **not** rely on real data, or set SeeAllData=true
+Unit tests may **not rely on real data**, or set `SeeAllData=true`
 
 ## 6. Unit Tests: Coverage
 
