@@ -18,8 +18,18 @@ The Salesforce documents linked below informed our standards. If something isn't
 
 * [1. Solution Code Prefix](#1-solution-code-prefix)
 
-* [7. Unit Tests: Naming](#7-unit-tests-naming)
+* [2. Commenting: JavaDoc for structure / Inline for readability](#2-commenting-javadoc-for-structure--inline-for-readability)
 
+* [3. Bulkify](#3-bulkify)
+
+* [4. Unit Tests: Positive and Negative Cases](#4-unit-tests-positive-and-negative-cases)
+
+* [5. Unit Tests: Data](#5-unit-tests-data)
+
+* [6. Unit Tests: Coverage](#6-unit-tests-coverage)
+
+* [7. Unit Tests: Naming](#7-unit-tests-naming)
+ 
  
 ## 1. Solution Code Prefix
 
