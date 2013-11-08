@@ -55,7 +55,7 @@ Apex comments should adhere to the JavaDoc style so that Allergan can produce do
 
 Inline comments are strongly encouraged as well. The more **frequent** and **meaningful**, the better.
 
-```objc
+```java
 public without sharing class AGN_GlobalUtils {
 /**
 * @author Centerstance, Sebastian Kessel
