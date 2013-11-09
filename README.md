@@ -8,9 +8,11 @@ The Salesforce documents linked below informed our standards. If something isn't
 
 * [Apex Code Best Practices](http://wiki.developerforce.com/page/Apex_Code_Best_Practices)
 
-* [Best Practice: Bulkify Your Code](http://wiki.developerforce.com/page/Best_Practice%3A_Bulkify_Your_Code)
+* [How to Write Good Unit Tests](http://wiki.developerforce.com/page/How_to_Write_Good_Unit_Tests)
 
-* [How to Write Good Unit Tests] (http://wiki.developerforce.com/page/How_to_Write_Good_Unit_Tests)
+* [An Introduction to Exception Handling](http://wiki.developerforce.com/page/An_Introduction_to_Exception_Handling)
+
+* [Best Practice: Bulkify Your Code](http://wiki.developerforce.com/page/Best_Practice%3A_Bulkify_Your_Code)
 
 * [Best Practice: Ensure Test Methods Verify Large Datasets](http://wiki.developerforce.com/page/Best_Practice:_Ensure_Test_Methods_Verify_Large_Datasets)
 
