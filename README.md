@@ -39,7 +39,7 @@ Class, Trigger, Component, Page, and Static Resource  names should be prefixed w
 ```objc
 FMV_Utils
 SFA_SummaryPage
-RUSH_SRO_CreateProgramAllocations
+RUSH_CreateProgramAllocations
 ```
 
 **Not:**
@@ -56,14 +56,26 @@ Apex comments should adhere to the JavaDoc style so that Allergan can produce do
 Inline comments are strongly encouraged as well. The more **frequent** and **meaningful**, the better.
 
 ```java
-public without sharing class AGN_GlobalUtils {
 /**
-* @author Centerstance, Sebastian Kessel
-* @version 1.0 BETA
-* @date 03/15/2013
-* @description Adds VF pagemessage
-* @param String strText
-* @return Void
+ * UM1 APP: Standards Demonstration (SDEM)
+ * <p>
+ * Class for supporting SDEM* Triggers.
+ * 
+ * @author          Centerstance, Sebastian Kessel
+ * @version         1.101 PRD
+ * @date            04/29/2013
+ * @description     Class for supporting SDEM* Triggers. Primary functionality is creation of awesome comments that make the code more maintainable.
+  
+*/
+
+public without sharing class SDEM_GlobalUtils {
+/**
+* @author           Centerstance, Sebastian Kessel
+* @version          1.101 PRD
+* @date             04/29/2013
+* @description      Adds VF pagemessage
+* @param            String strText
+* @return           Void
 */
 public static void addMessage(String strText) {
   //adding message
@@ -71,12 +83,12 @@ public static void addMessage(String strText) {
   ApexPages.addMessage(myMsg);
 }
 /**
-* @author Centerstance, Sebastian Kessel
-* @version 1.0 BETA
-* @date 03/15/2013
-* @description Checks string for null/empty
-* @param String strText
-* @return Boolean
+* @author          Centerstance, Sebastian Kessel
+* @version         1.101 PRD
+* @date            04/29/2013
+* @description     Checks string for null/empty
+* @param           String strText
+* @return          Boolean
 */
 public static boolean isNullOrEmpty(String strText) {
   //test incoming string
