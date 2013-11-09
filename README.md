@@ -51,7 +51,7 @@ mysupervaguecontrollername
 
 ## 2. Commenting: JavaDoc for structure / Inline for readability
 
-Apex comments should adhere to the JavaDoc style so that Allergan can produce documentation from code. Please note that **all methods** are commented, as is the class header. 
+Apex comments should adhere to the JavaDoc style so that AGN can produce documentation from code. Please note that **all methods** are commented, as is the class header. 
 
 Inline comments are strongly encouraged as well. The more **frequent** and **meaningful**, the better.
 
