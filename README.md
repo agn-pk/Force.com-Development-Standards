@@ -138,3 +138,11 @@ FMV_Utilstests
 TEST_FMV_Utils
 miscdevtestsfor2009
 ```
+
+## Motivational Quotes
+
+> The place to express yourself in programming is in the quality of your ideas, and the efficiency of execution. The role of style is the same as in literature. A great writer doesn't express himself by putting the spaces before his commas instead of after, or by putting extra spaces inside his parentheses. A great writer will slavishly conform to some rules of style, and that in no way constrains his power to express himself creatively. See for example William Strunk's [The Elements of Style](http://www.crockford.com/wrrrld/style.html). I think this applies to programming as well. 
+
+> Conforming to a consistent style improves readability, and frees you to express yourself in ways that matter. JSLint here plays the part of a stern but benevolent editor, helping you to get the style right so that you can focus your creative energy where it is most needed.
+>
+> -- <cite>[Douglas Crockford on JSLint, the The JavaScript Code Quality Tool](https://gist.github.com/textarcana/1745829)</cite>
