@@ -76,9 +76,9 @@ public with sharing class sharingClass {
 
 Do not treat XML as a string. Instead use XML libraries like XMLStreamReader (SAX Parser) and XMLDom (DOM Parser) provided by Salesforce.
 
-8. SOQL injections
+## 8. SOQL injections
 
-Make sure SOQL injections are avoided
+Be mindful of SOQL injection vulnerabilities
 http://www.salesforce.com/us/developer/docs/apexcode/Content/pages_security_tips_soql_injection.htm
 
 
