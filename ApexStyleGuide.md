@@ -36,7 +36,7 @@ Make sure that variable names start with lowercase and use camel case after that
 ```
 string strTest = 'test';
 
-public static final String ACCOUNT_RT_PRESCRIBER_NAME = 'Prescriber';
+public static final string ACCOUNT_RT_PRESCRIBER_NAME = 'Prescriber';
 ```
 
 ## 3. Avoid nested for loops (3 or more levels should be avoided)
