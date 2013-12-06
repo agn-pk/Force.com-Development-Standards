@@ -86,8 +86,8 @@ http://www.salesforce.com/us/developer/docs/apexcode/Content/pages_security_tips
 Instead of string concatenation use String.format().
 
 ```
-String templateString = 'Case {0} has just been created as a {1}';
-String[] arguments = new String[] {caseNumber, severity};
-String message = String.format(templateString, arguments);
+string templateString = 'Case {0} has just been created as a {1}';
+string[] arguments = new String[] {caseNumber, severity};
+string message = String.format(templateString, arguments);
 ```
 
