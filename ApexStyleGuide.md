@@ -81,4 +81,13 @@ Do not treat XML as a string. Instead use XML libraries like XMLStreamReader (SA
 Be mindful of SOQL injection vulnerabilities
 http://www.salesforce.com/us/developer/docs/apexcode/Content/pages_security_tips_soql_injection.htm
 
+## 9. String Concatenation
+
+Instead of string concatenation use String.format().
+
+```
+String templateString = 'Case {0} has just been created as a {1}';
+String[] arguments = new String[] {caseNumber, severity};
+String message = String.format(templateString, arguments);
+```
 
