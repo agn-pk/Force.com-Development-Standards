@@ -39,7 +39,7 @@ string strTest = 'test';
 public static final string ACCOUNT_RT_PRESCRIBER_NAME = 'Prescriber';
 ```
 
-## 3. Avoid nested for loops (3 or more levels should be avoided)
+## 3. Avoid nesting for loops more than 3x
 ```
  
     for() {
