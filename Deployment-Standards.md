@@ -8,8 +8,8 @@ Applies to anyone authorized to create or deploy declarative, configured or code
 
 ## Table of Contents
 
-* [1. Approaches/Tools](#1-method-names)
-* [2. Approaches/Tools](#2-variable-names)
+* [1. Credentials](#1-credentials)
+* [2. Approaches/Tools](#2-approaches)
 
 
 ## 1. Credentials
