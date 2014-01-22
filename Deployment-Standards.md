@@ -22,4 +22,8 @@ Change Sets will suffice for minor deployments. Otherwise Ant should be used.
 
 The Eclipse IDE should never be connected to an AGN production environment.
 
+## 3. Verification
+
+Verify that the existing unit tests run to completion after a change is made, especially if the change does not trigger all tests - such as adding a unique constraint to an existing field.
+
 
