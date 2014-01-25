@@ -18,22 +18,28 @@ The Salesforce documents linked below informed our standards. If something isn't
 
 ## Table of Contents
 
-* [1. Solution Code Prefix](#1-solution-code-prefix)
+* [1. Use Standard Functionality](#1-use-standard-functionality)
 
-* [2. Commenting: JavaDoc for structure / Inline for readability](#2-commenting-javadoc-for-structure--inline-for-readability)
+* [2. Solution Code Prefix](#1-solution-code-prefix)
 
-* [3. Bulkify](#3-bulkify)
+* [3. Commenting: JavaDoc for structure / Inline for readability](#2-commenting-javadoc-for-structure--inline-for-readability)
 
-* [4. Unit Tests: Positive and Negative Cases](#4-unit-tests-positive-and-negative-cases)
+* [4. Bulkify](#3-bulkify)
 
-* [5. Unit Tests: Data](#5-unit-tests-data)
+* [5. Unit Tests: Positive and Negative Cases](#4-unit-tests-positive-and-negative-cases)
 
-* [6. Unit Tests: Coverage](#6-unit-tests-coverage)
+* [6. Unit Tests: Data](#5-unit-tests-data)
 
-* [7. Unit Tests: Naming](#7-unit-tests-naming)
+* [7. Unit Tests: Coverage](#6-unit-tests-coverage)
+
+* [8. Unit Tests: Naming](#7-unit-tests-naming)
  
- 
-## 1. Solution Code Prefix
+
+## 1. Use Standard Functionality 
+
+Customize because you have to, not because you can.
+
+## 2. Solution Code Prefix
 
 Class, Trigger, Component, Page, and Static Resource  names should be prefixed with a 2-4 uppercase **solution code** followed by an underscore.
 
@@ -51,7 +57,7 @@ SFASUMMARYPAGE
 mysupervaguecontrollername
 ```
 
-## 2. Commenting: JavaDoc for structure / Inline for readability
+## 3. Commenting: JavaDoc for structure / Inline for readability
 
 Apex comments should adhere to the JavaDoc style so that AGN can produce documentation from code. Please note that **all methods** are commented, as is the class header. 
 
@@ -101,27 +107,27 @@ public static boolean isNullOrEmpty(String strText) {
 
 ```
 
-## 3. Bulkify
+## 4. Bulkify
 
 All Apex should be **"bulkified"** in order to process more than one record at a time.
 
 Seriously.
 
-## 4. Unit Tests: Positive and Negative Cases
+## 5. Unit Tests: Positive and Negative Cases
 
 Unit tests should cover **every use case** of the application, including positive and negative cases, as well as bulk and single record scenarios.
 
 Please make clear assertions. Simply covering the code is not sufficient.
 
-## 5. Unit Tests: Data
+## 6. Unit Tests: Data
 
 Unit tests may **not rely on real data**, or set `SeeAllData=true`
 
-## 6. Unit Tests: Coverage
+## 7. Unit Tests: Coverage
 
 Unit test coverage must be greater than or equal to **85%**
 
-## 7. Unit Tests: Naming
+## 8. Unit Tests: Naming
 
 Unit tests should reside in an adjacent class with a **_TEST** suffix
 
