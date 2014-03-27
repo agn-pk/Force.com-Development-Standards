@@ -20,19 +20,19 @@ The Salesforce documents linked below informed our standards. If something isn't
 
 * [1. Use Standard Functionality](#1-use-standard-functionality)
 
-* [2. Solution Code Prefix](#1-solution-code-prefix)
+* [2. Solution Code Prefix](#2-solution-code-prefix)
 
-* [3. Commenting: JavaDoc for structure / Inline for readability](#2-commenting-javadoc-for-structure--inline-for-readability)
+* [3. Commenting: JavaDoc for structure / Inline for readability](#3-commenting-javadoc-for-structure--inline-for-readability)
 
-* [4. Bulkify](#3-bulkify)
+* [4. Bulkify](#4-bulkify)
 
-* [5. Unit Tests: Positive and Negative Cases](#4-unit-tests-positive-and-negative-cases)
+* [5. Unit Tests: Positive and Negative Cases](#5-unit-tests-positive-and-negative-cases)
 
-* [6. Unit Tests: Data](#5-unit-tests-data)
+* [6. Unit Tests: Data](#6-unit-tests-data)
 
-* [7. Unit Tests: Coverage](#6-unit-tests-coverage)
+* [7. Unit Tests: Coverage](#7-unit-tests-coverage)
 
-* [8. Unit Tests: Naming](#7-unit-tests-naming)
+* [8. Unit Tests: Naming](#8-unit-tests-naming)
  
 
 ## 1. Use Standard Functionality 
