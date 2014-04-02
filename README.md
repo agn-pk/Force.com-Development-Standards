@@ -129,7 +129,9 @@ Unit test coverage must be greater than or equal to **85%**
 
 ## 8. Unit Tests: Naming
 
-Unit tests should reside in an adjacent class with a **_TEST** suffix
+Unit tests should reside in an adjacent class with a **_TEST** suffix.
+
+If the class uses @isTest, it needs  a **_TEST** suffix.
 
 **For example:**
 ```objc
