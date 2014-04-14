@@ -12,6 +12,20 @@ More on this later.
 
 * [2. Variable Names](#2-variable-names)
 
+* [3. Loops](#1-avoid-nesting-for-loops-more-than-3x)
+
+* [4. Procedural Code](#2-avoid procedural code)
+
+* [5. OOP Principles](#1-method-names)
+
+* [6. Sharing](#2-variable-names)
+
+* [7. XML](#2-variable-names)
+
+* [8. SOQL injections](#2-variable-names)
+
+* [9. String Concatenation](#2-variable-names)
+
 ## 1. Method names
 
 Method names should start with lowercase, Verb and follow CamelCase later.
@@ -52,7 +66,7 @@ public static final string ACCOUNT_RT_PRESCRIBER_NAME = 'Prescriber';
      }
 ```
 
-## 4. Avoid Procedual Code
+## 4. Avoid Procedural Code
 
 Do not write large methods (say more than 100 lines). See if you can divide them into smaller piece of functionality which will help not only in readability/ maintainability of code but also in writing apex test classes/ getting more code coverage. In bigger methods typically some of alternate paths don’t get executed and we will get less coverage.
  
