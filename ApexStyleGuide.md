@@ -4,8 +4,6 @@ Style Guide borrowed from DF13.
 
 ## Introduction
 
-More on this later.
-
 ## Table of Contents
 
 * [1. Method Names](#1-method-names)
@@ -25,6 +23,8 @@ More on this later.
 * [8. SOQL injections](#2-variable-names)
 
 * [9. String Concatenation](#2-variable-names)
+
+* [10. Readability](#2-readability)
 
 ## 1. Method names
 
@@ -105,3 +105,8 @@ string[] arguments = new String[] {caseNumber, severity};
 string message = String.format(templateString, arguments);
 ```
 
+## 10. Readability
+
+Readability matters. If you have to choose between two equally effective alternatives, pick the more readable one. 
+
+Obviously this is subjective, but if you can read your own code three months from now, that’s a great start.
